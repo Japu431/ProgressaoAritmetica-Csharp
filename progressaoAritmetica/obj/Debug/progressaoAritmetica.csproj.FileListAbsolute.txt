@@ -1,0 +1,10 @@
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\bin\Debug\progressaoAritmetica.exe.config
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\bin\Debug\progressaoAritmetica.exe
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\bin\Debug\progressaoAritmetica.pdb
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.csprojAssemblyReference.cache
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.Form1.resources
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.Properties.Resources.resources
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.csproj.GenerateResource.cache
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.csproj.CoreCompileInputs.cache
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.exe
+c:\users\sennit\source\repos\progressaoAritmetica\progressaoAritmetica\obj\Debug\progressaoAritmetica.pdb
