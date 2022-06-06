@@ -25,13 +25,15 @@ namespace progressaoAritmetica
         private void calcularPA_Click(object sender, EventArgs e)
         {
             int Termo1 = Convert.ToInt32(termo1.Text);
-           
             int Razao = Convert.ToInt32(razao.Text);
-            int Posicao = Convert.ToInt32(posicao.Text);
+        
 
-            int calc = (Termo1 + (Posicao - 1) * Razao);
+            for(int Posicao = Convert.ToInt32(posicao.Text); Posicao <= Termo1; Posicao += Razao)
+            {
+                paRes.Text += $"{Posicao}";
+            }
 
-            paRes.Text = $"A Progressão aritmetica será de: {calc}";
+
         }
 
         private void Form1_Load(object sender, EventArgs e)

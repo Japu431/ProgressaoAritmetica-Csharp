@@ -37,8 +37,8 @@
             this.calcularPA = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.paRes = new System.Windows.Forms.Label();
             this.clearFields = new System.Windows.Forms.Button();
+            this.paRes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -120,14 +120,6 @@
             this.label5.TabIndex = 8;
             this.label5.Text = "Resultado PA: ";
             // 
-            // paRes
-            // 
-            this.paRes.AutoSize = true;
-            this.paRes.Location = new System.Drawing.Point(24, 262);
-            this.paRes.Name = "paRes";
-            this.paRes.Size = new System.Drawing.Size(0, 13);
-            this.paRes.TabIndex = 9;
-            // 
             // clearFields
             // 
             this.clearFields.Location = new System.Drawing.Point(27, 166);
@@ -138,13 +130,21 @@
             this.clearFields.UseVisualStyleBackColor = true;
             this.clearFields.Click += new System.EventHandler(this.clearFields_Click);
             // 
+            // paRes
+            // 
+            this.paRes.Location = new System.Drawing.Point(27, 256);
+            this.paRes.Multiline = true;
+            this.paRes.Name = "paRes";
+            this.paRes.Size = new System.Drawing.Size(323, 130);
+            this.paRes.TabIndex = 11;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(408, 353);
-            this.Controls.Add(this.clearFields);
+            this.ClientSize = new System.Drawing.Size(396, 420);
             this.Controls.Add(this.paRes);
+            this.Controls.Add(this.clearFields);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.calcularPA);
@@ -173,8 +173,8 @@
         private System.Windows.Forms.Button calcularPA;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label paRes;
         private System.Windows.Forms.Button clearFields;
+        private System.Windows.Forms.TextBox paRes;
     }
 }
 
